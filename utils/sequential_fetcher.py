@@ -1,7 +1,7 @@
 from libs.datasets import load_dataset
 
 class SequentialFetcher:
-    def __init__(self, type, rel_dir):
+    def __init__(self, rel_dir, type="imagefolder") :
         self._type = type
         self._rel_dir = rel_dir
 
